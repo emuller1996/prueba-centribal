@@ -1,0 +1,36 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "Nombre": "Producto 1",
+      "Descripcion": "Descripcion Producto 1",
+      "Precio": 48000,
+      "Impuesto": 0.16
+    },
+    {
+      "Nombre": "PRODUCTO 2",
+      "Referencia": "2451626",
+      "Descripcion": "DESCRIPCION PRODUCTO 2",
+      "Precio": 180000,
+      "Impuesto": 0.19,
+      "id": 2
+    },
+    {
+      "Nombre": "PRODUCTO 3",
+      "Referencia": "784656",
+      "Descripcion": "N/A",
+      "Precio": 1690000,
+      "Impuesto": 0.25,
+      "id": 3
+    },
+    {
+      "Nombre": "LACOSTE 1996",
+      "Referencia": "4",
+      "Descripcion": "LACOSTE 1996 \nLACOSTE 1996 MELOS",
+      "Precio": 145000,
+      "Impuesto": 0.19,
+      "id": 4
+    }
+  ],
+  "pedidos": []
+}
