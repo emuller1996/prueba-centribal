@@ -7,6 +7,8 @@ import CreateProducts from "./components/products/CreateProduct";
 import MyNavBar from "./components/products/_MyNavBar";
 import ListaPedido from "./components/pedidos/ListaPedido";
 import CrearPedido from "./components/pedidos/CrearPedido";
+import EditarProducto from "./components/products/EditProduct";
+import DetallePedido from "./components/pedidos/DetallePedido";
 
 function App() {
   return (
@@ -15,13 +17,22 @@ function App() {
         <MyNavBar />
 
         <Switch>
-        <Route  path="/pedidos/crear">
+          
+          <Route exact path="/pedidos/crear">
             <CrearPedido />
           </Route>
-          <Route path="/pedidos">
+
+          <Route exact path="/pedidos">
             <ListaPedido />
           </Route>
-          
+
+          <Route exact path="/detalle/:idPedido">
+            <DetallePedido />
+          </Route>
+
+          <Route exact path="/producto/:id">
+            <EditarProducto />
+          </Route>
           <Route exact path="/create">
             <CreateProducts />
           </Route>

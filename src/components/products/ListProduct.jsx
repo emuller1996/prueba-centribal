@@ -59,7 +59,7 @@ export default function ListProduct(){
                         <td>{p.Descripcion}</td>
                         <td>{p.Precio}</td>
                         <td>
-                          <button type="button" class="btn btn-secondary btn-sm">Ver</button>
+                          <Link to={`producto/${p.id}`} class="btn btn-secondary btn-sm">Ver</Link>
                         </td>
                       </tr>
                     ))}
