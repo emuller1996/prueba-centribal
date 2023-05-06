@@ -1,14 +1,15 @@
 {
   "productos": [
     {
-      "id": 1,
-      "Nombre": "Producto 1",
-      "Descripcion": "Descripcion Producto 1",
-      "Precio": 48000,
-      "Impuesto": 0.16
+      "Nombre": "JAMON AUZL REY",
+      "Referencia": "213213",
+      "Descripcion": "Descripcion Producto 1DASDASD",
+      "Precio": 4800,
+      "Impuesto": 0.16,
+      "id": 1
     },
     {
-      "Nombre": "PRODUCTO 2",
+      "Nombre": "DASDASD 2",
       "Referencia": "2451626",
       "Descripcion": "DESCRIPCION PRODUCTO 2",
       "Precio": 180000,
@@ -18,19 +19,156 @@
     {
       "Nombre": "PRODUCTO 3",
       "Referencia": "784656",
-      "Descripcion": "N/A",
+      "Descripcion": "PRODUCTO 3PRODUCTO 3PRODUCTO 3",
       "Precio": 1690000,
       "Impuesto": 0.25,
       "id": 3
     },
     {
       "Nombre": "LACOSTE 1996",
-      "Referencia": "4",
+      "Referencia": "43123",
       "Descripcion": "LACOSTE 1996 \nLACOSTE 1996 MELOS",
       "Precio": 145000,
-      "Impuesto": 0.19,
+      "Impuesto": 19,
       "id": 4
+    },
+    {
+      "Nombre": "CAMISETA NIKE",
+      "Referencia": "31231231",
+      "Descripcion": "CAMISETA NIKE CAMISETA NIKE ",
+      "Precio": 45000,
+      "Impuesto": 0.21,
+      "id": 5
+    },
+    {
+      "Nombre": "JEANS LEVIS",
+      "Referencia": "3123123",
+      "Descripcion": "JEANS LEVIS\nJEANS LEVIS",
+      "Precio": 75000,
+      "Impuesto": 0.18,
+      "id": 6
+    },
+    {
+      "Nombre": "ARROZ DANA",
+      "Referencia": "312312312",
+      "Descripcion": "ARROA MELO",
+      "Precio": 2900,
+      "Impuesto": 0.1,
+      "id": 7
     }
   ],
-  "pedidos": []
+  "pedidos": [
+    {
+      "Productos": [
+        {
+          "Referencia": 2,
+          "Nombre": "PRODUCTO 2",
+          "Descripcion": "DESCRIPCION PRODUCTO 2",
+          "Precio": 180000,
+          "Impuesto": 0.19
+        },
+        {
+          "Referencia": 1,
+          "Nombre": "Producto 1",
+          "Descripcion": "Descripcion Producto 1",
+          "Precio": 48000,
+          "Impuesto": 0.16
+        }
+      ],
+      "TotalSinImpuesto": 228000,
+      "TotalConImpuesto": 269880,
+      "id": 1
+    },
+    {
+      "Productos": [
+        {
+          "Referencia": 1,
+          "Nombre": "Producto 1",
+          "Descripcion": "Descripcion Producto 1",
+          "Precio": 48000,
+          "Impuesto": 0.16
+        }
+      ],
+      "TotalSinImpuesto": 48000,
+      "TotalConImpuesto": 55680,
+      "id": 2
+    },
+    {
+      "Productos": [
+        {
+          "Referencia": 5,
+          "Nombre": "CAMISETA NIKE",
+          "Descripcion": "CAMISETA NIKE CAMISETA NIKE ",
+          "Precio": 45000,
+          "Impuesto": 0.21
+        }
+      ],
+      "TotalSinImpuesto": 45000,
+      "TotalConImpuesto": 54450,
+      "id": 3
+    },
+    {
+      "Productos": [
+        {
+          "Referencia": 6,
+          "Nombre": "JEANS LEVIS",
+          "Descripcion": "JEANS LEVIS\nJEANS LEVIS",
+          "Precio": 75000,
+          "Impuesto": 0.18
+        },
+        {
+          "Referencia": 1,
+          "Nombre": "Producto 1",
+          "Descripcion": "Descripcion Producto 1",
+          "Precio": 48000,
+          "Impuesto": 0.16
+        }
+      ],
+      "TotalSinImpuesto": 123000,
+      "TotalConImpuesto": 144180,
+      "id": 4
+    },
+    {
+      "Productos": [
+        {
+          "Referencia": 7,
+          "Nombre": "ARROZ DANA",
+          "Descripcion": "ARROA MELO",
+          "Precio": 2900,
+          "Impuesto": 0.1
+        }
+      ],
+      "TotalSinImpuesto": 2900,
+      "TotalConImpuesto": 3190,
+      "id": 5
+    },
+    {
+      "Productos": [
+        {
+          "Referencia": 7,
+          "Nombre": "ARROZ DANA",
+          "Descripcion": "ARROA MELO",
+          "Precio": 2900,
+          "Impuesto": 10
+        },
+        {
+          "Referencia": 5,
+          "Nombre": "CAMISETA NIKE",
+          "Descripcion": "CAMISETA NIKE CAMISETA NIKE ",
+          "Precio": 45000,
+          "Impuesto": 21
+        },
+        {
+          "Referencia": 1,
+          "Nombre": "Producto 1",
+          "Descripcion": "Descripcion Producto 1",
+          "Precio": 48000,
+          "Impuesto": 16
+        }
+      ],
+      "TotalSinImpuesto": 95900,
+      "TotalConImpuesto": 1837900,
+      "id": 6
+    }
+  ]
 }
